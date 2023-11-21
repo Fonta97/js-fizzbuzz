@@ -11,3 +11,9 @@
     color: white;
     padding: 10px;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
