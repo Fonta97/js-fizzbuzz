@@ -5,12 +5,11 @@ for (var i = 1; i <= 100; i++) {
         output = "BuzzFizz";
         console.log(output);
     }
-
-    if ((i % 3) === 0) {
+    else if ((i % 3) === 0) {
         output = "Fizz";
         console.log(output);
     }
-    if ((i % 5) === 0) {
+    else if ((i % 5) === 0) {
         output === "Buzz";
         console.log(output);
     }
