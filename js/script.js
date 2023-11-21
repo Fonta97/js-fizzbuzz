@@ -2,7 +2,7 @@ let output = 0;
 
 let div = document.querySelector("box");
 
-for (var i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
     let square = document.createElement("div");
     square.classList.add("quadrato");
