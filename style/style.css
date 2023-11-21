@@ -5,15 +5,28 @@
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: aquamarine;
-    height: 100vh;
     color: white;
     padding: 10px;
 }
 
-.row {
+.box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 5px;
+}
+
+.quadrato {
+    text-align: center;
+    flex-wrap: wrap;
+    color: black;
+    padding: 35px 0;
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    border: solid 1px;
+    margin: 5px;
 }
