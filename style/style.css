@@ -30,3 +30,39 @@
     border: solid 1px;
     margin: 5px;
 }
+
+.bf_quadrato {
+    text-align: center;
+    flex-wrap: wrap;
+    color: black;
+    padding: 35px 0;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: solid 1px;
+    margin: 5px;
+}
+
+.f_quadrato {
+    text-align: center;
+    flex-wrap: wrap;
+    color: black;
+    padding: 35px 0;
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border: solid 1px;
+    margin: 5px;
+}
+
+.b_quadrato {
+    text-align: center;
+    flex-wrap: wrap;
+    color: black;
+    padding: 35px 0;
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    border: solid 1px;
+    margin: 5px;
+}
